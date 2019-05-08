@@ -1,13 +1,13 @@
 {
   "name": "text-encoder-lite",
   "author": "AJ ONeal <awesome@coolaj86.com>",
-  "contributors": [
-  ],
+  "contributors": [],
   "version": "1.0.2",
   "description": "A Lite Polyfill for the Encoding Living Standard's API.",
   "main": "text-encoder-lite.js",
   "files": [
-    "text-encoder-lite.js", "text-encoder-lite.min.js"
+    "text-encoder-lite.js",
+    "text-encoder-lite.min.js"
   ],
   "repository": {
     "type": "git",
@@ -25,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/coolaj86/TextEncoderLite/issues"
   },
-  "homepage": "https://github.com/coolaj86/TextEncoderLite"
+  "homepage": "https://github.com/coolaj86/TextEncoderLite",
+  "devDependencies": {
+    "uglify-js": "^3.3.16"
+  },
+  "scripts": {
+    "minify": "uglifyjs text-encoder-lite.js -o text-encoder-lite.min.js --source-map"
+  }
 }
