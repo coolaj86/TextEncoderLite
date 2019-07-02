@@ -28,8 +28,8 @@ Or add it to your `package.json` dependencies.
 You can use it as follows:
 
 ```js
-var TextDecoder = require('TextDecoderLite').TextDecoderLite;
-var TextEncoder = require('TextDecoderLite').TextEncoderLite;
+var TextDecoder = require('text-encoder-lite').TextDecoderLite;
+var TextEncoder = require('text-encoder-lite').TextEncoderLite;
 ```
 
 #### Bower ####
