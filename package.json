@@ -1,35 +1,35 @@
 {
-  "name": "text-encoder-lite",
-  "author": "AJ ONeal <awesome@coolaj86.com>",
-  "contributors": [],
-  "version": "1.0.2",
-  "description": "A Lite Polyfill for the Encoding Living Standard's API.",
-  "main": "text-encoder-lite.js",
-  "files": [
-    "text-encoder-lite.js",
-    "text-encoder-lite.min.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/coolaj86/TextEncoderLite.git"
-  },
-  "keywords": [
-    "utf8",
-    "utf-8",
-    "TypedArray",
-    "Uint8Array",
-    "encoding",
-    "decoding",
-    "living standard"
-  ],
-  "bugs": {
-    "url": "https://github.com/coolaj86/TextEncoderLite/issues"
-  },
-  "homepage": "https://github.com/coolaj86/TextEncoderLite",
-  "devDependencies": {
-    "uglify-js": "^3.3.16"
-  },
-  "scripts": {
-    "minify": "uglifyjs text-encoder-lite.js -o text-encoder-lite.min.js --source-map"
-  }
+	"name": "text-encoder-lite",
+	"author": "AJ ONeal <coolaj86@gmail.com>",
+	"contributors": [],
+	"version": "2.0.0",
+	"description": "A Lite Polyfill for the Encoding Living Standard's API.",
+	"main": "text-encoder-lite.js",
+	"files": [
+		"text-encoder-lite.js",
+		"text-encoder-lite.min.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/solderjs/TextEncoderLite.git"
+	},
+	"keywords": [
+		"utf8",
+		"utf-8",
+		"TypedArray",
+		"Uint8Array",
+		"encoding",
+		"decoding",
+		"living standard"
+	],
+	"bugs": {
+		"url": "https://github.com/solderjs/TextEncoderLite/issues"
+	},
+	"homepage": "https://github.com/solderjs/TextEncoderLite",
+	"devDependencies": {
+		"uglify-js": "^3.3.16"
+	},
+	"scripts": {
+		"minify": "uglifyjs text-encoder-lite.js -o text-encoder-lite.min.js --source-map"
+	}
 }
